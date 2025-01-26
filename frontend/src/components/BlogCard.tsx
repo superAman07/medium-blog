@@ -49,7 +49,7 @@ export function Circle() {
 export function Avatar({ name, size }: { name: string; size?: "big" | "small" }) {
   return (
     <div
-      className={`relative inline-flex items-center ${
+      className={`relative inline-flex items-center cursor-pointer ${
         size === "small" ? "h-5 w-5" : "h-8 w-8"
       } justify-center overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600`}
     >
