@@ -6,7 +6,7 @@ export const FullBlog = ({blog}:{blog: Blog})=>{
     return (
         <div>
             <Appbar/>
-            <div className="flex justify-center px-20">
+            <div className="flex justify-center px-20 py-20">
                 <div className="grid grid-cols-12 pt-12 px-10 w-full max-w-screen-xl">
                     <div className="col-span-8 ">
                         <div className="text-5xl font-extrabold">

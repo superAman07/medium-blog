@@ -13,7 +13,7 @@ export const Blog = ()=>{
         return(
             <div>
                 <Appbar/>
-                <div className="flex justify-center">
+                <div className="flex justify-center py-20">
                     <div>
                         <BlogSkeleton/>
                         <BlogSkeleton/>
